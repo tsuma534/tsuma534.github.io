@@ -1,0 +1,45 @@
+article
+{
+    width: 50%;
+}
+.right
+{
+    float: right;
+}
+.left
+{
+    float: left;
+}
+legend
+{
+    margin: 0 auto;
+}
+h3
+{
+	margin: 0;
+}
+span.have > span:first-child
+{
+    font-weight: bold;
+}
+span.have:hover
+{
+    color: darkgreen;
+    cursor: default;
+    background-color: #CED6DF;
+}
+span.have > span:last-child:hover
+{
+    font-style: italic;
+}
+span.donthave > a
+{ 
+    text-decoration: none;
+    color: black;
+}
+span.donthave > a:hover
+{ 
+    text-decoration: underline;
+    color: blue;
+    background-color: #CED6DF;
+}
