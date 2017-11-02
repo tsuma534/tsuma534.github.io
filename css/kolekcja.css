@@ -1,14 +1,14 @@
 article
 {
+    float: left;
+}
+.half
+{
     width: 50%;
 }
-.right
+.onethird
 {
-    float: right;
-}
-.left
-{
-    float: left;
+    width: 33.3333%;
 }
 legend
 {
