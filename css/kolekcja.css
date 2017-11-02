@@ -43,3 +43,21 @@ span.donthave > a:hover
     color: blue;
     background-color: #CED6DF;
 }
+span.doesntexist
+{
+    color: gray;
+}
+span.doesntexist > span:first-child
+{
+    text-decoration: line-through;
+}
+span.doesntexist > span:last-child
+{
+    color: transparent;
+}
+span.doesntexist:hover > span
+{
+    color: white;
+    cursor: not-allowed;
+    background-color: darkgray;
+}
