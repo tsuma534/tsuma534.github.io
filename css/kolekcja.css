@@ -71,3 +71,9 @@ span.doesntexist:hover > span
     cursor: not-allowed;
     background-color: darkgray;
 }
+a.hiddenlink, a.hiddenlink:hover
+{
+    cursor: default !important;
+    text-decoration: none !important;
+    color: black;
+}
