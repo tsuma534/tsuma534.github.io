@@ -53,6 +53,17 @@ span.donthave > a:hover
     color: blue;
     background-color: #CED6DF;
 }
+span.extra > a
+{
+    text-decoration: none;
+    color: transparent;
+}
+span.extra > a:hover,
+span:hover + span.extra > a
+{
+    text-decoration: underline;
+    color: purple;
+}
 span.doesntexist
 {
     color: gray;
@@ -69,6 +80,26 @@ span.doesntexist:hover > span
 {
     color: white;
     cursor: not-allowed;
+    background-color: darkgray;
+}
+span.notranslation > a
+{
+    text-decoration: none;
+    color: black;
+}
+span.notranslation > a:hover
+{
+    text-decoration: underline;
+    color: blue;
+    background-color: #CED6DF;
+}
+span.notranslation > span
+{
+    color: transparent;
+}
+span.notranslation > a:hover + span
+{
+    color: white;
     background-color: darkgray;
 }
 a.hiddenlink, a.hiddenlink:hover
