@@ -43,12 +43,12 @@ span.have > span:last-child:hover
     font-style: italic;
 }
 span.donthave > a
-{ 
+{
     text-decoration: none;
     color: black;
 }
 span.donthave > a:hover
-{ 
+{
     text-decoration: underline;
     color: blue;
     background-color: #CED6DF;
