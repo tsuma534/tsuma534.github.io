@@ -28,6 +28,11 @@ h3>a:hover
     color: blue;
     text-decoration: underline;
 }
+div.franchise_group
+{
+    border: 1px solid gray;
+    padding: 6px;
+}
 span.have > span:first-child
 {
     font-weight: bold;
