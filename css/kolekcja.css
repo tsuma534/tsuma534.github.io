@@ -33,6 +33,10 @@ div.franchise_group
     border: 1px solid gray;
     padding: 6px;
 }
+hr
+{
+    border-top: 1px dashed black;
+}
 span.have > span:first-child
 {
     font-weight: bold;
