@@ -28,10 +28,6 @@ h3>a:hover, h4>a:hover
     color: blue;
     text-decoration: underline;
 }
-hr
-{
-    border-top: 1px dashed black;
-}
 span.have > span:first-child
 {
     font-weight: bold;
