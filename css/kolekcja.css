@@ -102,6 +102,16 @@ span.notranslation > a:hover + span
     color: white;
     background-color: darkgray;
 }
+span.current
+{
+    text-decoration: underline;
+    color: gray;
+    cursor: default;
+}
+span.current::before
+{
+    content: '> ';
+}
 a.hiddenlink, a.hiddenlink:hover
 {
     cursor: default !important;
