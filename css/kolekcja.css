@@ -53,6 +53,18 @@ span.donthave > a:hover
     color: blue;
     background-color: #CED6DF;
 }
+span.pending > a
+{
+    text-decoration: none;
+    color: black;
+}
+span.pending > a:hover
+{
+    text-decoration: underline;
+    text-decoration: line-through;
+    color: firebrick;
+    background-color: #CED6DF;
+}
 span.extra > a
 {
     text-decoration: none;
