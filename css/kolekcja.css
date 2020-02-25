@@ -2,6 +2,19 @@ article
 {
     float: left;
 }
+br
+{
+    height: 19px;
+}
+table
+{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+td
+{
+    padding: 0px;
+}
 .half
 {
     width: 50%;
@@ -123,6 +136,10 @@ span.current
 span.current::before
 {
     content: '> ';
+}
+span.placeholder
+{
+    visibility: hidden;
 }
 a.hiddenlink, a.hiddenlink:hover
 {
